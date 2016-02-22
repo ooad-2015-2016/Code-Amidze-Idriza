@@ -1,7 +1,7 @@
 # Code-Amidze-Idriza
 
 Clanovi tima:
-1. Anisa Hadzibulic
-2. Adnan Babovic
-3. Emir Avdispahic
-4. Mirsad Begic
+1. Anisa Hadzibulic\n
+2. Adnan Babovic\n
+3. Emir Avdispahic\n
+4. Mirsad Begic\n
