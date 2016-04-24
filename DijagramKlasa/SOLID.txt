@@ -15,3 +15,11 @@ U svakoj klasi se nalaze samo oni atributi i metode koji su striktno vezani za n
 Ovaj princip je posebno primjenjen razdvajanjem klasa TestTeorija i TestPrvaPomoc. Razdvojene su jer sluze za dvije razlicite stvari, moguce ih je mijenjati, i posebno specificirati, tj nadogradjivati, ali nije moguce izmijeniti samu namjenu klase Test. 
 
 ------------------------------------------------------------------------
+3.	Liskov princip zamjene : 
+
+ ->	Podtipovi moraju biti zamjenjivi njihovim osnovnim tipovima
+ 
+Sve klase koje su naslijedjene u nasem dijagramu postuju ovaj princip, klase naslijedjene iz Osobe, ali i klase naslijedjene iz Testa. Navedeno se moze vidjeti iz dijagrama klasa.
+
+------------------------------------------------------------------------
+
