@@ -1,0 +1,17 @@
+-Solid principi. Analiza dijagrama klasa.-
+
+
+1.	Princip pojedinacne odgovornosti :
+
+ ->	Klasa bi trebala imati samo jedan razlog za promjenu
+
+U svakoj klasi se nalaze samo oni atributi i metode koji su striktno vezani za nju. Npr: Klasa osoba je napravljena tako da sluzi za dobavljanje svih licnih informacija koje su potrebne za ucesnike u sistemu, dok su klase AutoSkola, Kandidat, Instruktor i Komisija odvojene jer sluze za razlicite namjene. Iz navedenog slijedi da je ovaj princip ispostovan.
+
+------------------------------------------------------------------------
+2.	Otvoreno zatvoren princip : 
+
+ ->	Entiteti softvera (klase, moduli, funkcije) trebali bi biti otvoreni za  nadogradnju,  ali zatvoreni za modifikacije
+
+Ovaj princip je posebno primjenjen razdvajanjem klasa TestTeorija i TestPrvaPomoc. Razdvojene su jer sluze za dvije razlicite stvari, moguce ih je mijenjati, i posebno specificirati, tj nadogradjivati, ali nije moguce izmijeniti samu namjenu klase Test. 
+
+------------------------------------------------------------------------
