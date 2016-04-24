@@ -23,3 +23,8 @@ Sve klase koje su naslijedjene u nasem dijagramu postuju ovaj princip, klase nas
 
 ------------------------------------------------------------------------
 
+4.	Princip inverzije ovisnosti :  
+
+->	A.  Moduli visokog nivoa ne bi trebali o visiti od modula niskog nivoa. oba bi trebalo da ovise od apstrakcija. 
+->	B. Moduli ne bi trebali ovisiti od detalja. detalji bi trebali biti ovisni od apstrakcija.
+Osoba, Test su napravljene kao apstraktne, jer se ove klase se rijetko mijenjaju cime je zadovoljeno da klase visokog nivoa ne ovise o klasama nizeg nivoa, kao i ovisnost detalja od apstrakcija. 
