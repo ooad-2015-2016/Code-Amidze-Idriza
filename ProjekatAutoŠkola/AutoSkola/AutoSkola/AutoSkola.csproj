@@ -116,6 +116,18 @@
     <None Include="AutoSkola_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\AppTitle.png" />
+    <Content Include="Assets\AppTitle2.png" />
+    <Content Include="Assets\mapa.jpg" />
+    <Content Include="Assets\Slika 1.png" />
+    <Content Include="Assets\Slika2.png" />
+    <Content Include="Assets\Slika3.png" />
+    <Content Include="Assets\Slika4.jpg" />
+    <Content Include="Assets\Slika5.png" />
+    <Content Include="Assets\slika6.jpg" />
+    <Content Include="Assets\Slika7.jpg" />
+    <Content Include="Assets\slika8.jpg" />
+    <Content Include="Assets\user.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
