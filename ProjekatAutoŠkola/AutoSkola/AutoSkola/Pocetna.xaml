@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="AutoSkola.Pocetna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AutoSkola"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="144" Margin="10,33,0,0" Stroke="Black" VerticalAlignment="Top" Width="1260"/>
+
+    </Grid>
+</Page>
