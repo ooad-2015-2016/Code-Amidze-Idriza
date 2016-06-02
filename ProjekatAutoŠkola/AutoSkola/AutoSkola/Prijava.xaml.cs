@@ -31,5 +31,10 @@ namespace AutoSkola
         {
             this.Frame.Navigate(typeof(MainPage), null);
         }
+
+        private void On_Tap(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(RegistracijaKandidata), null);
+        }
     }
 }

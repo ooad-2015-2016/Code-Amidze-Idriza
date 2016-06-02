@@ -28,7 +28,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="200"/>
             </Grid.RowDefinitions>
-            <Image Height="150" Width="150" Grid.Column="0" Grid.Row="0" Margin="0, 15, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" Source="Assets/Kandidat.png"/>
+            <Image Height="150" Width="150" Grid.Column="0" Grid.Row="0" Margin="0, 15, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" Source="Assets/Kandidat.png" Tapped="On_Tap"/>
             <Image Height="150" Width="150" Grid.Column="1" Grid.Row="0" Margin="0, 15, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" Source="Assets/Instruktor.png"/>
             <Image Height="150" Width="150" Grid.Column="2" Grid.Row="0" Margin="0, 15, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" Source="Assets/Autoskola.png"/>
             <Image Height="150" Width="150" Grid.Column="3" Grid.Row="0" Margin="0, 15, 0, 0" VerticalAlignment="Top" HorizontalAlignment="Center" Source="Assets/ClanKomisije.png"/>
