@@ -9,14 +9,7 @@
 
     <Page.Resources>
         <Style TargetType="PivotItem" x:Key="Default">
-            <Setter Property="Background">
-                <Setter.Value>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black" Offset="0"/>
-                        <GradientStop Color="#FF20436E" Offset="0.476"/>
-                    </LinearGradientBrush>
-                </Setter.Value>
-            </Setter>
+            <Setter Property="Background" Value="#FF137DDA"/>
         </Style>
 
         <Style x:Key="defaultPivot" TargetType="Pivot">
@@ -370,13 +363,7 @@
         </Style>
     </Page.Resources>
 
-    <Pivot Title="Gone in 60 seconds" Foreground="White" Style="{StaticResource defaultPivot}">
-        <Pivot.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF1B2230" Offset="1"/>
-            </LinearGradientBrush>
-        </Pivot.Background>
+    <Pivot Title="Gone in 60 seconds" Foreground="Black" Style="{StaticResource defaultPivot}" Background="White">
         <PivotItem Header="Pocetna" Foreground="White" Style="{StaticResource Default}">
         </PivotItem>
         <PivotItem Header="Kalendar" Style="{StaticResource Default}">
