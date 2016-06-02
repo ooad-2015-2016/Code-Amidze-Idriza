@@ -378,6 +378,7 @@
             </LinearGradientBrush>
         </Pivot.Background>
         <PivotItem Header="Pocetna" Foreground="White" Style="{StaticResource Default}">
+   
         </PivotItem>
         <PivotItem Header="Kalendar" Style="{StaticResource Default}">
             <Grid x:Name="gridView" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="1500" Height="500" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible">
