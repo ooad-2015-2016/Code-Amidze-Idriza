@@ -26,5 +26,7 @@ namespace AutoSkola
         {
             this.InitializeComponent();
         }
+
+        
     }
 }
