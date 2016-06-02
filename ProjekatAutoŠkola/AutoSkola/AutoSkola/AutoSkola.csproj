@@ -121,6 +121,10 @@
   <ItemGroup>
     <Content Include="Assets\AppTitle.png" />
     <Content Include="Assets\AppTitle2.png" />
+    <Content Include="Assets\Autoskola.png" />
+    <Content Include="Assets\ClanKomisije.png" />
+    <Content Include="Assets\Instruktor.png" />
+    <Content Include="Assets\Kandidat.png" />
     <Content Include="Assets\mapa.jpg" />
     <Content Include="Assets\Slika 1.png" />
     <Content Include="Assets\Slika2.png" />
