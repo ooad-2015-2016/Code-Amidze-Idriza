@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="AutoSkola.Prijava"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AutoSkola"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="LOGIN" FontSize="89"  HorizontalAlignment="Left" Margin="825,48,0,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top"/>
+        <TextBlock x:Name="email_adresa" FontSize="30" HorizontalAlignment="Left" Margin="719,241,0,0" TextWrapping="Wrap" Text="Email adresa" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBlock" FontSize="30" HorizontalAlignment="Left" Margin="719,298,0,0"  Text="" VerticalAlignment="Top" Width="465" Height="53"/>
+        <TextBlock x:Name="textBox" FontSize="30" HorizontalAlignment="Left" Margin="719,386,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBlock1" FontSize="30" HorizontalAlignment="Left" Margin="719,443,0,0"  Text="" VerticalAlignment="Top" Width="465" Height="53"/>
+        <TextBlock x:Name="textBlock2" FontSize="49" HorizontalAlignment="Left" Margin="691,560,0,0" TextWrapping="Wrap" Text="Ili se registrujte kao novi:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock3" FontSize="30"  HorizontalAlignment="Left" Margin="400,946,0,0" TextWrapping="Wrap" Text="Kandidat" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock4" FontSize="30"  HorizontalAlignment="Left" Margin="750,946,0,0" TextWrapping="Wrap" Text="Instruktor" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock5" FontSize="30"  HorizontalAlignment="Left" Margin="1100,946,0,0" TextWrapping="Wrap" Text="Autoškola" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock6" FontSize="30"  HorizontalAlignment="Left" Margin="1450,946,0,0" TextWrapping="Wrap" Text="Član komisije" VerticalAlignment="Top"/>
+        <Image x:Name="imgKandidat" HorizontalAlignment="Left" Height="100" Margin="422,776,0,0" VerticalAlignment="Top" Width="100" Source="Assets/Instruktor.png"/>
+
+
+    </Grid>
+</Page>
