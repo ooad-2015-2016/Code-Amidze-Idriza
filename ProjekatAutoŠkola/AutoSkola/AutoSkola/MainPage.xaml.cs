@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,29 @@ namespace AutoSkola
         public MainPage()
         {
             this.InitializeComponent();
+
+            Grid raspored = (Grid)this.FindName("rasporedGrid");
+            var stilDugme = new Style(typeof(Button))
+            {
+                Setters =
+                {
+                    new Setter { Property = BackgroundProperty, Value = Colors.Azure },
+                    new Setter { Property = HeightProperty, Value = 50},
+                    new Setter { Property = WidthProperty, Value = 70 },
+                    new Setter { Property = BorderThicknessProperty, Value = 2 },
+                    new Setter { Property = BorderBrushProperty, Value = Colors.Black }
+                }
+            };
+            for(int i = 1; i < 4; i++)
+                for(int j = 0; j < 9; j++)
+                {
+                    Button bat = new Button();
+                    bat.Style = stilDugme;
+                    Grid.SetRow(bat, i);
+                    Grid.SetColumn(bat, j);
+                    raspored.Children.Add(bat);
+                }
+
         }
     }
 }

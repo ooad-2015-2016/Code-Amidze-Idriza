@@ -361,6 +361,11 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
+        <Style TargetType="Button" x:Key="Dan">
+            <Setter Property="Background" Value="Orange"/>
+        </Style>
+        
     </Page.Resources>
 
     <Pivot Title="Gone in 60 seconds" Foreground="Black" Style="{StaticResource defaultPivot}" Background="White">
@@ -368,7 +373,7 @@
    
         </PivotItem>
         <PivotItem Header="Kalendar" Style="{StaticResource Default}">
-            <Grid x:Name="gridView" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="1500" Height="500" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <Grid x:Name="rasporedGrid" HorizontalAlignment="Left" Margin="20,50,0,0" VerticalAlignment="Top" Width="1200" Height="500" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"/>
                     <ColumnDefinition Width="100"/>
