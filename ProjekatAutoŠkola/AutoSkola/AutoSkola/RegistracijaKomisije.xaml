@@ -57,6 +57,7 @@
             <PasswordBox x:Name="passwordBox" FontSize="25" HorizontalAlignment="Stretch" Margin="3,49,10,1" Grid.Row="10" VerticalAlignment="Stretch" Grid.RowSpan="2"/>
             <PasswordBox x:Name="passwordBox1" FontSize="25" Grid.Column="1" HorizontalAlignment="Stretch" Margin="12,49,0,1" Grid.Row="10" VerticalAlignment="Stretch" Grid.RowSpan="2"/>
 
+
         </Grid>
         <Button x:Name="button" Content="Registruj se"    HorizontalAlignment="Center"  Margin="150,125,0,0" Height="40" Width="125"/>
         <Button x:Name="button1" Content="Resetuj polja" HorizontalAlignment="Center"  Height="40" Width="125" Margin="450,-40,0,0"/>

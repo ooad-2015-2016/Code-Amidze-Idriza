@@ -365,12 +365,27 @@
         <Style TargetType="Button" x:Key="Dan">
             <Setter Property="Background" Value="Orange"/>
         </Style>
-        
+
     </Page.Resources>
 
     <Pivot Title="Gone in 60 seconds" Foreground="Black" Style="{StaticResource defaultPivot}" Background="White">
+        <PivotItem Header="EksterniUredjaj" >
+            <Grid x:Name="gridEksterni" HorizontalAlignment="Center" Margin="20,50,0,0" VerticalAlignment="Top" Width="800" Height="400">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="400"/>
+                    <ColumnDefinition Width="400"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="RPi" Content="RPi" FontSize="40" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="99" Width="200"/>
+                <Button x:Name="button" Content="IR Senzor" FontSize="40" Grid.Column="0" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Height="99" Width="200"/>
+
+            </Grid>
+                  
+            
+        </PivotItem>
+
+
         <PivotItem Header="Pocetna" Foreground="White" Style="{StaticResource Default}">
-   
+
         </PivotItem>
         <PivotItem Header="Kalendar" Style="{StaticResource Default}">
             <Grid x:Name="rasporedGrid" HorizontalAlignment="Left" Margin="20,50,0,0" VerticalAlignment="Top" Width="1200" Height="500" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible">

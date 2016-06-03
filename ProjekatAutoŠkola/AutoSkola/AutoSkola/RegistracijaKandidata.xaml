@@ -64,6 +64,11 @@
             <TextBlock x:Name="tex123123"  FontSize="20" Grid.Column="1" HorizontalAlignment="Left" Margin="18,0,0,0" Grid.Row="15"  TextWrapping="Wrap" Text="Verifikacija" VerticalAlignment="Center"/>
             <PasswordBox x:Name="passwordBox" FontSize="25" HorizontalAlignment="Stretch" Margin="3,0,10,0" Grid.Row="16" VerticalAlignment="Stretch"/>
             <PasswordBox x:Name="passwordBox1" FontSize="25" Grid.Column="1" HorizontalAlignment="Stretch" Margin="12,0,0,0" Grid.Row="16" VerticalAlignment="Stretch"/>
+            <ComboBox x:Name="comboBox" SelectedIndex="0"  Grid.Column="0"  HorizontalAlignment="Stretch" Margin="3,10,0,0" Grid.Row="14" VerticalAlignment="Stretch">
+                <ComboBoxItem Name="DođohVidjehPoložih" Content="DođohVidjehPoložih" ></ComboBoxItem>
+                <ComboBoxItem Name="MaxLine" Content="MaxLine"></ComboBoxItem>
+                <ComboBoxItem Name="Ajla" Content="Ajla" ></ComboBoxItem>
+            </ComboBox>
 
         </Grid>
         <Button x:Name="button" Content="Registruj se"    HorizontalAlignment="Center"  Margin="150,125,0,0" Height="40" Width="125"/>
