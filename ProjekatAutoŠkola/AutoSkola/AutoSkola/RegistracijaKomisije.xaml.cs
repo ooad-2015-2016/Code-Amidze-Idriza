@@ -5,7 +5,6 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -21,13 +20,11 @@ namespace AutoSkola
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class RegistracijaKandidata : Page
+    public sealed partial class RegistracijaKomisije : Page
     {
-        public RegistracijaKandidata()
+        public RegistracijaKomisije()
         {
             this.InitializeComponent();
         }
-
-        
     }
 }

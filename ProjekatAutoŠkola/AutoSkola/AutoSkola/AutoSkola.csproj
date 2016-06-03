@@ -111,8 +111,17 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="klase\Raspored.cs" />
+    <Compile Include="RegistracijaAutoškole.xaml.cs">
+      <DependentUpon>RegistracijaAutoškole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistracijaInstruktora.xaml.cs">
+      <DependentUpon>RegistracijaInstruktora.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegistracijaKandidata.xaml.cs">
       <DependentUpon>RegistracijaKandidata.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RegistracijaKomisije.xaml.cs">
+      <DependentUpon>RegistracijaKomisije.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -168,7 +177,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RegistracijaAutoškole.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistracijaInstruktora.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="RegistracijaKandidata.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RegistracijaKomisije.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
