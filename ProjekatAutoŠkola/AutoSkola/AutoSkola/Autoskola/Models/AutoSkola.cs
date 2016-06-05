@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoSkola
+namespace AutoSkola.Autoskola.Models
 {
     public class AutoSkola
     {

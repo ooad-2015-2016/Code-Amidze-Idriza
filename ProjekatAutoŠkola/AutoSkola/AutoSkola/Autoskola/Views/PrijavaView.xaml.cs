@@ -5,13 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace AutoSkola
+namespace AutoSkola.Autoskola.Views
 {
-    public sealed partial class Pocetna : Page
+    public sealed partial class PrijavaView : Page
     {
-        public Pocetna()
+        public PrijavaView()
         {
             this.InitializeComponent();
         }
+
     }
 }

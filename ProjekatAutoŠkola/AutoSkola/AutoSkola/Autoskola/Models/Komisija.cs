@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoSkola
+namespace AutoSkola.Autoskola.Models
 {
     public enum Kategorija { A, B, C, C1, C1E, CE, D };
+    /*
     public class Komisija : Osoba
     {
         public int Rejting { get; set; }
@@ -20,4 +21,5 @@ namespace AutoSkola
         }
 
     }
+    */
 }

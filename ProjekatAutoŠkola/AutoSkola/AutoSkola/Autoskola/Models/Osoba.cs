@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutoSkola
+namespace AutoSkola.Autoskola.Models
 {
 
     public enum Spol { Musko, Zensko };
     public abstract class Osoba
     {
-
-        
         public string Ime { get; set; }
         public string Prezime { get; set; }
         public DateTime DatumRodjenja { get; set; }
@@ -20,6 +18,7 @@ namespace AutoSkola
         public string Telefon { get; set; }
         public string Password { get; set; }
 
+        /*
         public static string RandomString(int length)  // funkcija za random generiranje passworda
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -28,7 +27,15 @@ namespace AutoSkola
               .Select(s => s[random.Next(s.Length)]).ToArray());
         }
         //treba dodati samo da se nakon kreiranja ispisuje pass ;)
-        public Osoba(string _ime, string _prezime, DateTime _datumRod, Spol _spol, string _email, string _telefon)
+
+    */
+
+        public Osoba()
+        {
+
+        }
+
+        public Osoba(string _ime, string _prezime, DateTime _datumRod, Spol _spol, string _email, string _telefon, string _pass)
         {
             Ime = _ime;
             Prezime = _prezime;
@@ -36,7 +43,7 @@ namespace AutoSkola
             SpolOsobe = _spol;
             Email = _email;
             Telefon = _telefon;
-            Password = RandomString(4);
+            Password = _pass;
         }
 
 

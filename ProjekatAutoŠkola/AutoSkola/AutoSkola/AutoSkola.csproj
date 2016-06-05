@@ -95,34 +95,25 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="klase\AutoSkola.cs" />
-    <Compile Include="klase\CasVoznje.cs" />
-    <Compile Include="klase\Instruktor.cs" />
-    <Compile Include="klase\Komisija.cs" />
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Autoskola\DataSource\DataSourceAutoSkola.cs" />
+    <Compile Include="Autoskola\Helpers\INavigacija.cs" />
+    <Compile Include="Autoskola\Helpers\NavigationService.cs" />
+    <Compile Include="Autoskola\Helpers\RelayCommand.cs" />
+    <Compile Include="Autoskola\Models\AutoSkola.cs" />
+    <Compile Include="Autoskola\Models\CasVoznje.cs" />
+    <Compile Include="Autoskola\Models\Instruktor.cs" />
+    <Compile Include="Autoskola\Models\Kandidat.cs" />
+    <Compile Include="Autoskola\Models\Komisija.cs" />
+    <Compile Include="Autoskola\Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="klase\Osoba.cs" />
-    <Compile Include="Pocetna.xaml.cs">
-      <DependentUpon>Pocetna.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Prijava.xaml.cs">
-      <DependentUpon>Prijava.xaml</DependentUpon>
+    <Compile Include="Autoskola\Models\Osoba.cs" />
+    <Compile Include="Autoskola\Views\PrijavaView.xaml.cs">
+      <DependentUpon>PrijavaView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="klase\Raspored.cs" />
-    <Compile Include="RegistracijaAutoškole.xaml.cs">
-      <DependentUpon>RegistracijaAutoškole.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RegistracijaInstruktora.xaml.cs">
-      <DependentUpon>RegistracijaInstruktora.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RegistracijaKandidata.xaml.cs">
-      <DependentUpon>RegistracijaKandidata.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RegistracijaKomisije.xaml.cs">
-      <DependentUpon>RegistracijaKomisije.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Autoskola\Models\Raspored.cs" />
+    <Compile Include="Autoskola\ViewModels\PrijavaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -161,42 +152,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="EdukacijaViews\PsiholoskiAspektiView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="Autoskola\Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pocetna.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Prijava.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RegistracijaAutoškole.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RegistracijaInstruktora.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RegistracijaKandidata.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="RegistracijaKomisije.xaml">
+    <Page Include="Autoskola\Views\PrijavaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="xamlStyles\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
